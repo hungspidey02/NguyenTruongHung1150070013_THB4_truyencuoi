@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenMid"
+    android:orientation="vertical">
+
+    <include layout="@layout/actionbar_home" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ln_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_zodiac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ỨNG DỤNG 12 CUNG HOÀNG ĐẠO"
+        android:textAllCaps="true"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
